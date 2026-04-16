@@ -35,7 +35,11 @@ st.markdown("""
         text-align: center;
         transition: 0.3s;
     }
-    .metric-card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(46, 125, 50, 0.15); }
+    .metric-card:hover { transform: translateY(-5px); }
+    
+    .metric-title { color: #1b5e20; font-weight: bold; font-size: 1.1rem; margin-bottom: 10px; }
+    .metric-value { color: #2e7d32; font-size: 2.2rem; font-weight: bold; margin: 0; }
+    .metric-sub { color: #666; font-size: 0.8rem; margin-top: 5px; }
     
     /* Glassmorphism Containers */
     .glass-card {
